@@ -8,6 +8,8 @@ The project emphasizes separation of concerns at every layer, strict adherence t
 
 ## Table of Contents
 
+- [Live Demo](#live-demo)
+- [Screenshots](#screenshots)
 - [Key Features](#key-features)
 - [Architecture](#architecture)
 - [Technical Highlights](#technical-highlights)
@@ -18,7 +20,73 @@ The project emphasizes separation of concerns at every layer, strict adherence t
 - [Installation and Setup](#installation-and-setup)
 - [Environment Configuration](#environment-configuration)
 - [Future Improvements](#future-improvements)
-- [Screenshots](#screenshots)
+
+---
+
+## Live Demo
+
+Recorded walkthroughs of the full product flows (Arabic UI):
+
+| Role | Demo |
+|------|------|
+| **Driver (User)** | Discover parking on the map → book → pay → manage active booking |
+| **Parking Owner** | Dashboard metrics → manage lots → add a new parking lot |
+
+**Watch both demos:** [Google Drive — Live Demo (User & Owner)](https://drive.google.com/drive/folders/1Dh8FVGhq5LwQpEa1cxFhj-DUXJ6mgRhP?usp=sharing)
+
+---
+
+## Screenshots
+
+Selected product screens that cover the core driver and owner journeys.
+
+### Driver experience
+
+<p align="center">
+  <img src="docs/screenshots/01_parking_map.jpg" width="220" alt="Parking map with lot markers" />
+  <img src="docs/screenshots/02_parking_details.jpg" width="220" alt="Parking lot details bottom sheet" />
+  <img src="docs/screenshots/03_booking_setup.jpg" width="220" alt="Booking duration and vehicle selection" />
+</p>
+
+| Screen | Description |
+|--------|-------------|
+| Parking map | OpenStreetMap discovery with live lot markers across Damascus |
+| Lot details | Availability, hourly rate, directions, and book CTA |
+| Booking setup | Duration presets, vehicle selection, and price summary |
+
+<p align="center">
+  <img src="docs/screenshots/04_booking_details.jpg" width="220" alt="Active booking details with countdown" />
+  <img src="docs/screenshots/05_active_booking.jpg" width="220" alt="Home map with active booking card" />
+  <img src="docs/screenshots/07_my_bookings.jpg" width="220" alt="My bookings list" />
+</p>
+
+| Screen | Description |
+|--------|-------------|
+| Booking details | Active status, remaining-time countdown, extend / invoice / cancel |
+| Active booking on map | Persistent session card with expiry and ticket number |
+| My bookings | Active reservations with lot, vehicle, date, and amount |
+
+<p align="center">
+  <img src="docs/screenshots/06_vehicles.jpg" width="220" alt="Vehicle management" />
+</p>
+
+| Screen | Description |
+|--------|-------------|
+| Vehicles | Registered vehicles with plate, model, and color |
+
+### Owner experience
+
+<p align="center">
+  <img src="docs/screenshots/08_owner_parking_list.jpg" width="220" alt="Owner parking lot list" />
+  <img src="docs/screenshots/09_owner_dashboard.jpg" width="220" alt="Owner dashboard analytics" />
+  <img src="docs/screenshots/10_add_parking.jpg" width="220" alt="Add parking lot form" />
+</p>
+
+| Screen | Description |
+|--------|-------------|
+| Parking management | Searchable lot list with occupancy, status filters, and pricing |
+| Owner dashboard | Today’s revenue, occupancy ring, and performance overview |
+| Add parking | Create a lot with map pin, capacity, and hourly rate |
 
 ---
 
@@ -356,21 +424,6 @@ flutter pub run flutter_launcher_icons
 - Background location tracking for navigation to parking lots
 
 ---
-
-## Screenshots
-
-> Screenshots will be added here.
-
-| Screen | Description |
-|--------|-------------|
-| ![Splash](screenshots/splash.png) | Splash and routing |
-| ![Onboarding](screenshots/onboarding.png) | First-launch onboarding |
-| ![Login](screenshots/login.png) | Authentication |
-| ![Map](screenshots/map.png) | Parking map discovery |
-| ![Booking](screenshots/booking.png) | Booking flow |
-| ![Dashboard](screenshots/dashboard.png) | Owner dashboard |
-| ![Vehicles](screenshots/vehicles.png) | Vehicle management |
-| ![Notifications](screenshots/notifications.png) | Notification inbox |
 
 ---
 
